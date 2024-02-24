@@ -1,0 +1,26 @@
+<dependencyManagement>
+    <dependencies>
+        <dependency>
+            <groupId>org.testcontainers</groupId>
+            <artifactId>testcontainers-bom</artifactId>
+            <version>1.19.6</version>
+            <type>pom</type>
+            <scope>import</scope>
+        </dependency>
+    </dependencies>
+</dependencyManagement>
+
+
+
+<dependency>
+    <groupId>org.testcontainers</groupId>
+    <artifactId>junit-jupiter</artifactId>
+    <scope>test</scope>
+</dependency>
+
+
+https://java.testcontainers.org/on_failure.html
+
+
+
+java.lang.IllegalStateException: Could not find a valid Docker environment. Please see logs and check configuration
